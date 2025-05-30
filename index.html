@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Creations Church</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-toggle" onclick="toggleMenu()">☰ Menu</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="sermons.html">Sermons</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section with Overlay Text -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Welcome to New Creations Church</h1>
+      <p>Spreading the love of Christ to the community</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Our Mission -->
+    <section>
+      <h2>Our Mission</h2>
+      <p>To spread the gospel and the love of Christ to everyone in the community.</p>
+    </section>
+
+    <!-- Sunday Service -->
+    <section>
+      <h2>Sunday Service</h2>
+      <p>Join us every Sunday at 10:00 AM for worship and fellowship.</p>
+    </section>
+
+    <!-- Latest Sermon -->
+    <section>
+      <h2>Latest Sermon</h2>
+      <p><strong>Title:</strong> Spiritual Maturity<br>
+         <strong>Preacher:</strong> Pastor Joel Makandiwa<br>
+         <strong>Date:</strong> May 28, 2025</p>
+      <p><a href="sermons.html">View More Sermons</a></p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <h3>Moments from Our Church Life</h3>
+      <div class="gallery">
+        <img src="images/Community-Outreach.jpg" alt="Church community">
+        <img src="images/choir singing.jpg" alt="Worship">
+        <img src="images/church exterior.jpg" alt="Church exterior">
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 New Creations Church. All rights reserved.</p>
+  </footer>
+
+  <!-- Hamburger Menu Script -->
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("navLinks");
+      nav.classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>

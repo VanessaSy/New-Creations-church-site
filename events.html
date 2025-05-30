@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events – New Creations Church</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Upcoming Events</h1>
+    <nav>
+  <div class="nav-toggle" onclick="toggleMenu()">☰ Menu</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="sermons.html">Sermons</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <main>
+    <section>
+      <h2>Sunday Worship Service</h2>
+      <p><strong>Date:</strong> Every Sunday<br>
+         <strong>Time:</strong> 10:00 AM<br>
+         <strong>Location:</strong> New Creations Church Sanctuary<br>
+         <strong>Description:</strong> Join us for a powerful time of praise, worship, and the Word of God.</p>
+    </section>
+
+    <section>
+      <h2>Midweek Prayer & Bible Study</h2>
+      <p><strong>Date:</strong> Every Wednesday<br>
+         <strong>Time:</strong> 6:30 PM<br>
+         <strong>Description:</strong> A midweek gathering for prayer and deep dive into Scripture to grow in faith together.</p>
+    </section>
+
+    <section>
+      <h2>Community Outreach – Feed the Street</h2>
+      <p><strong>Date:</strong> June 8, 2025<br>
+         <strong>Time:</strong> 9:00 AM<br>
+         <strong>Description:</strong> Volunteer with us as we distribute food and share the gospel with our neighbors in need.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 New Creations Church. All rights reserved.</p>
+  </footer>
+  <script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+</script>
+</body>
+</html>
