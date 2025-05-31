@@ -44,21 +44,20 @@ Edit
 - Google Fonts
 
 ##  How to Use
-
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/VanessaSy/New-Creations-church-site.git
-Open the folder in your code editor.
+2. Open the folder in your code editor.
 
-Right-click index.html and select “Open with Live Server” (if using VS Code + Live Server extension), or open it manually in your browser.
+3. Right-click index.html and select “Open with Live Server” (if using VS Code + Live Server extension), or open it manually in your browser.
 
-Add or edit the content as needed.
+4. Add or edit the content as needed.
 
- Contributing
+5. Contributing:
 If you'd like to suggest improvements or collaborate on future development, feel free to fork the repo and open a pull request.
 
- License
+6. License
 This project is open-source and available under the MIT License.
 
 Note: Replace your-username in the clone URL with your actual GitHub username, and add a GitHub Pages or deployment link when you deploy it online.
