@@ -48,7 +48,7 @@ Edit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/church-website.git
+   git clone https://github.com/VanessaSy/New-Creations-church-site.git
 Open the folder in your code editor.
 
 Right-click index.html and select “Open with Live Server” (if using VS Code + Live Server extension), or open it manually in your browser.
